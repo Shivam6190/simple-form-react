@@ -47,7 +47,7 @@ export default function Form() {
     return (
     <>
 
-    <pre>{flag?(<h1 className='ui-define'>Hello {nam},You've have successfully Registered</h1>):""}</pre>
+    <pre>{flag?(<h1 className='ui-define'>Hello {nam},You've have Successfully Registered</h1>):""}</pre>
     
     <form className="container" onSubmit={handleSubmit}>
         
